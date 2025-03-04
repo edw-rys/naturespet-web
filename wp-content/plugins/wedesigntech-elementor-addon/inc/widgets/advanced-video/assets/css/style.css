@@ -1,0 +1,55 @@
+.wdt-advanced-video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: none;
+    max-width: 100%;
+}
+
+.wdt-advanced-video-container .wdt-advanced-video { width: 100%; max-width: 100%; }
+
+.wdt-advanced-video-container .wdt-advanced-video video.advanced-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.wdt-advanced-video-container .wdt-play-button {
+    position: absolute;
+    border-radius: var(--wdtRadius_2X);
+    width: clamp(3.125rem, 2.569rem + 3.0675vw, 6.25rem);
+    height: clamp(3.125rem, 2.569rem + 3.0675vw, 6.25rem);
+    opacity: 0;
+    cursor: none;
+}
+
+.wdt-advanced-video-container:hover .wdt-play-button { opacity: 1; }
+
+.wdt-advanced-video-container .wdt-play-button span {
+    font-size: var(--wdtFontSize_H6);
+    color: rgba(var(--wdtAccentTxtColorRgb),1);
+    width: clamp(3.125rem, 2.569rem + 3.0675vw, 6.25rem);
+    height: clamp(3.125rem, 2.569rem + 3.0675vw, 6.25rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(var(--wdtPrimaryColorRgb,0.5));
+    transition: all 0.3s cubic-bezier(.26,-.14,0,1.01);
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    backdrop-filter: blur(50px) brightness(1);
+    border-radius: 50%;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.wdt-advanced-video-container .wdt-play-button .wdt-control-icons i { display: flex; align-items: center; justify-content: center; font-size: clamp(0.875rem, 0.8083rem + 0.3681vw, 1.25rem);margin-top: 26px;}
+/* .wdt-advanced-video-container .wdt-play-button span i.fa.fa-solid.fa-play:before { content: "play"; }
+.wdt-advanced-video-container .wdt-play-button span i.fa.fa-solid.fa-pause:before { content: "pause"; font-family: var(--wdtFontTypo_Alt); font-size: clamp(0.875rem, 0.8083rem + 0.3681vw, 1.25rem); font-weight: var(--wdtFontWeight_Ext); text-transform: capitalize; } */
+.wdt-advanced-video-container .wdt-play-button span i svg { overflow: visible; width: 50px; }

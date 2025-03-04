@@ -1,0 +1,156 @@
+/*--------------------------------------------------------------
+    Totop
+--------------------------------------------------------------*/
+
+    #back-to-top {
+        position: fixed;
+        display: none;
+        text-decoration: none;
+        bottom: 20px;
+        right: 20px;
+        overflow: visible;
+        width: 55px;
+        height: 55px;
+        border: none;
+        text-indent: 100%;
+        z-index: 9;
+        text-indent: -9999px;
+    }
+
+    .back-to-top-icon {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 50%;
+        transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        color: var(--wdtAccentTxtColor);
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        transition: all .3s linear;
+        text-indent: 0;
+        text-align: center;
+        font-size: clamp(2.25rem, 2.075rem + 0.875vw, 3.125rem);
+        line-height: 1;
+    }
+
+    .back-to-top-icon i:before { margin: 0; }
+
+    /* #back-to-top:hover .back-to-top-icon {
+        margin-top: -4px;
+    } */
+
+    /* #back-to-top:after {
+        background-color: var(--wdtAccentTxtColor);
+        content: "";
+        display: block;
+        height: 15px;
+        margin: 0 auto;
+        opacity: 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        text-indent: 0;
+        width: 2px;
+        -webkit-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear;
+    } */
+
+    #back-to-top:hover:after {
+        margin-top: 2px;
+        opacity: 1;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    #back-to-top:active,
+    #back-to-top:focus {
+        outline: none;
+    }
+
+    
+    span.back-to-top-icon-1 {
+        display: block;
+        position: absolute;
+        left: -58px;
+        right: 0;
+        margin: 0 auto;
+        top: -36%;
+        transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        color: var(--wdtAccentTxtColor);
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        transition: all .3s linear;
+        text-indent: 0;
+        text-align: center;
+        font-size: 40px;
+        line-height: 1;
+        opacity: 0;
+    }
+    #back-to-top:hover span.back-to-top-icon-1 {
+        opacity: 1;
+    }
+
+    span.back-to-top-icon-2 {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: -12px;
+        margin: 0 auto;
+        top: -85%;
+        transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        color: var(--wdtAccentTxtColor);
+        -webkit-transition: all .5s linear;
+        -moz-transition: all .5s linear;
+        -o-transition: all .5s linear;
+        -ms-transition: all .5s linear;
+        transition: all .5s linear;
+        text-indent: 0;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1;
+        opacity: 0;
+    }
+    #back-to-top:hover span.back-to-top-icon-2 {
+        opacity: 1;
+    }
+
+/*--------------------------------------------------------------
+    Accents
+--------------------------------------------------------------*/
+
+
+    /* Primary */
+    #back-to-top { background-color:transparent; }
+
+    /* Secondary */
+    #back-to-top:hover { background-color: transparent; }
+
+
+/*--------------------------------------------------------------
+    Responsive
+--------------------------------------------------------------*/
+
+    @media only screen and (max-width: 1280px) {
+
+        .nav-is-visible #back-to-top {
+            opacity: 0;
+        }
+    }
