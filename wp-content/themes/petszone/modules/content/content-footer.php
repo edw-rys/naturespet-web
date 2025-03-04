@@ -1,0 +1,1 @@
+<?php echo apply_filters( 'petszone_footer_get_template_part', petszone_get_template_part( 'footer', 'templates/footer', '', array() ) ); ?>

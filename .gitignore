@@ -1,0 +1,14 @@
+# Archivos de WordPress
+wp-config.php
+wp-content/uploads/*
+wp-content/plugins/*
+wp-content/cache/*
+wp-content/upgrade/*
+wordpress-6.7.1.zip
+
+# Dependencias y archivos temporales
+node_modules/
+vendor/
+*.log
+*.sql
+.DS_Store

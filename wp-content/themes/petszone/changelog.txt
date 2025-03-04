@@ -1,0 +1,20 @@
+*** PetsZone WordPress Theme Changelog ***
+
+
+Version 1.0.2
+ 
+    * Fixed : Warnings and deprecated errors
+    * Updated: WooCommerce outdated files
+    * Compatible with latest Elementor Version
+    * Compatible with latest WordPress Version
+
+Version 1.0.1
+ 
+  * RTL Demo Content added
+
+Version 1.0.0
+
+    * First release!
+    * Demo content updated
+    * WPML file updated
+    * Compatible with Latest Elementor and WordPress Version
