@@ -1628,7 +1628,9 @@ function wp_installing( $is_installing = null ) {
  * @return bool True if SSL, otherwise false.
  */
 function is_ssl() {
-	if ( isset( $_SERVER['HTTPS'] ) ) {
+	if (isset($_SERVER['HTTPS']) && ('on' === $_SERVER['HTTPS'] || '1' === $_SERVER['HTTPS'])) {
+        	return true;
+    	} elseif ( isset( $_SERVER['HTTPS'] ) ) {
 		if ( 'on' === strtolower( $_SERVER['HTTPS'] ) ) {
 			return true;
 		}
