@@ -1,0 +1,50 @@
+
+---Archivos descargados---
+Los archivos de importación para Default Demo ¡han sido descargados correctamente!
+Tiempo de ejecución máximo inicial = 360
+Información de archivos:
+URL del sitio = http://naturespet.sportfishin.gt
+Archivo de datos = /home/u143357273/domains/sportfishin.gt/naturespet/wp-content/uploads/2025/01/demo-content-import-file_2025-01-30__15-01-46.xml
+Archivo de widget = /home/u143357273/domains/sportfishin.gt/naturespet/wp-content/uploads/2025/01/demo-widgets-import-file_2025-01-30__15-01-46.json
+Archivo del personalizador = /home/u143357273/domains/sportfishin.gt/naturespet/wp-content/uploads/2025/01/demo-customizer-import-file_2025-01-30__15-01-46.dat
+Archivos de Redux:
+ ¡no definido!
+
+---ocdi/before_content_import---
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+------
+¡Nueva llamada AJAX!
+
+
+---Importando los widgets---
+wdt-cw-blog-sidebar : 
+
+Buscar - Sin título - Importado
+PetsZone Posts - Recent Articles : - Importado
+Nube de etiquetas - Tags : - Importado
+Galería - Gallery : - Importado
+Imagen - Sin título - Importado
+
+wdt-cw-shopsidebar : 
+
+Filtrar productos por precio - Filter By Price - Importado
+Nube de etiquetas de productos - Product tags - Importado
+Categorías de producto - Product categories - Importado
+Imagen - Sin título - Importado
+
+
+
+---Importación de los ajustes del personalizador---
+¡Importación de los ajustes del personalizador finalizado!
+
+---ocdi/after_import---
+
